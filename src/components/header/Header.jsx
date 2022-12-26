@@ -22,9 +22,9 @@ function Header(props) {
             className="header-link"
             id={`header-link-${props.bold}`}
             to="/gigs"
-          >
+          ><abbr title="ממתינים לתשלום">
             הגיגים שלי
-          </Link>
+          </abbr></Link>
           <Link
             className="header-link"
             id={`header-link-${!props.bold}`}
