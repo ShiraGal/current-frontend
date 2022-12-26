@@ -1,4 +1,4 @@
-import "./paidGigs.css";
+import "./PaidGigs.css";
 import Header from "../../components/header/Header";
 import trashIcon from "../../icons/trash.png";
 import { StoreCtxt } from "../../services/StoreService";
