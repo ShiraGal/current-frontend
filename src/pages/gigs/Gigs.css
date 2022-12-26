@@ -1,0 +1,29 @@
+
+.gigs-page{
+    display: flex;
+    flex-direction: column;
+}
+.shira-out-accordion{
+    display: flex;
+    justify-content: center;
+}
+.shira-accordion{
+width: 80%;
+}
+
+.accordion-button{
+    background-color: black;
+    color: white;
+}
+.accordion-button:not(.collapsed) {
+    background-color: black;
+}
+.out-gigs-list{
+    margin:  1rem;
+  }
+.gigs-list{
+    display: flex;
+    flex-wrap: wrap;
+    direction: rtl;
+    justify-content: center;
+}

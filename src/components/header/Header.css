@@ -1,0 +1,64 @@
+.login-title{
+    display: flex;
+  }
+  .login-title img{
+    height: 120px;
+  }
+  
+  .header-out{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .header-in{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 90%;
+  }
+  
+  .header-out img{
+    height: 32px;
+    margin: 8px;
+  }
+  .dropdown-item {
+    width: auto;
+    padding: 0px;
+    border-radius: 50%;
+  }
+  
+  .dropdown-menu.show{
+    display: flex;
+    justify-content: right;
+    padding: 0px;
+  }
+  
+  .dropdown-menu.show :hover{
+    background-color: var(--bs-white);
+  }
+  
+  
+  .header-link{
+    padding: 8px;
+    color: #EEEEEE;
+  }
+  
+  .header-table-buttom{
+    cursor: pointer;
+  }
+  #header-link-true{
+    font-weight: bold;
+  }
+  
+  #header-link-false{
+    color: #ffffff;
+    font-weight: normal;
+  }
+  

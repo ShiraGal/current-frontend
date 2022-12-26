@@ -1,0 +1,24 @@
+
+.paid-page{
+  display: flex;
+  flex-direction: column;
+}
+.out-shira-table{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+.shira-table{
+  width: 80%;
+    direction: rtl;
+    color: var(--bs-white);
+  }
+  thead{
+    color: #F6C90E;
+  }
+  
+  .table>tbody {
+    word-break: break-all;
+  }
