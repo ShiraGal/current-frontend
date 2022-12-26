@@ -1,7 +1,7 @@
 import "./Gigs.css";
 import "../../components/gigCard/GigCard.css";
 import "../../components/popupAddGig/PopupAddGig.css";
-import GigCard from "../../components/GigCard/GigCard";
+import GigCard from "../../components/gigCard/GigCard";
 import Header from "../../components/header/Header";
 import PopupAddGig from "../../components/PopupAddGig/PopupAddGig";
 import { StoreCtxt } from "../../services/StoreService";
