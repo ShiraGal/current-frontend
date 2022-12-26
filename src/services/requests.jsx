@@ -1,5 +1,7 @@
 import axios from "axios";
-const serverUrl = "http://localhost:3800/api";
+// const serverUrl = "http://localhost:3800/api";
+const serverUrl = "https://pluss30-api.onrender.com/api";
+// 
 
 const postNewUser = (newUser) => {
   axios.post(`${serverUrl}/users/register`, newUser);
