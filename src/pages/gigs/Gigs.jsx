@@ -3,7 +3,7 @@ import "../../components/gigCard/GigCard.css";
 import "../../components/popupAddGig/PopupAddGig.css";
 import GigCard from "../../components/gigCard/GigCard";
 import Header from "../../components/header/Header";
-import PopupAddGig from "../../components/PopupAddGig/PopupAddGig";
+import PopupAddGig from "../../components/popupAddGig/PopupAddGig";
 import { StoreCtxt } from "../../services/StoreService";
 import { useState, useEffect, useContext } from "react";
 import { useNavigate } from "react-router-dom";
