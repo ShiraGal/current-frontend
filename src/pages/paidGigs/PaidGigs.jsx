@@ -2,7 +2,7 @@ import "./PaidGigs.css";
 import Header from "../../components/header/Header";
 import trashIcon from "../../icons/trash.png";
 import { StoreCtxt } from "../../services/StoreService";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { Button, Table } from "react-bootstrap";
 
 function PaidGigs() {
@@ -12,6 +12,10 @@ function PaidGigs() {
     removeFromGigs(e.target.id);
     getMyGigs();
   };
+
+  useEffect(() => {
+    getMyGigs();
+  }, []);
 
   return (
     <div className="paid-page">

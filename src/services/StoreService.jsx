@@ -33,6 +33,7 @@ const StoreServise = ({ children }) => {
       })
       .catch((err) => {
         console.log(err.response.data);
+        navigate("/");
       });
   };
 
