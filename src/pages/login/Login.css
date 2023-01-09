@@ -1,7 +1,11 @@
-h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
+.login-title{
+    display: flex;
+    justify-content: left;
   }
+  .login-title img{
+    height: 120px;
+  }
+  
 
 .out-login-page{
     display: flex;
@@ -21,4 +25,15 @@ h1 {
     .login-page{
         width: 85%;
     }
+    .login-title{
+        justify-content: center;
+      }
+      .login-title img{
+        height: 100px;
+      }
+      h3{
+        font-size:1rem;
+      }
 }
+
+/* .login-title img { */

@@ -28,3 +28,9 @@
   .text-muted{
     color: black;
   }
+
+  @media screen and (max-width: 600px) {
+    .shira-gig-card{
+      background-color: #ffffff2b;
+    }
+  }

@@ -1,10 +1,4 @@
-.login-title{
-    display: flex;
-  }
-  .login-title img{
-    height: 120px;
-  }
-  
+
   .header-out{
     justify-content: center;
     align-items: center;
