@@ -17,7 +17,7 @@ function Header(props) {
   return (
     <div className="header-out">
       <div className="header-in">
-        <div>
+        <div className="header-links">
           <Link
             className="header-link"
             id={`header-link-${props.bold}`}
